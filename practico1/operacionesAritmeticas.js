@@ -1,0 +1,12 @@
+let num1 = 6;
+let num2 = 5;
+let num3 = 8;
+let num4 = 12;
+let suma = num1 + num2;
+let resultadoSuma = 11;
+let resta = num4 - num3;
+let resultadoResta = 4;
+let multiplicacion = suma * resta;
+let resultadoFinal = 44;
+let esPar = 44 % 2 ;
+console.log("Mis variables iniciales fueron:" + num1+"," +" "+ num2+"," +" "+ num3+"," +" "+ num4 + ". " +  "La respuesta a verificar si el resultado final es par es:" + esPar );
