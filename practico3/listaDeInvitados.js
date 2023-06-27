@@ -3,13 +3,13 @@ let rechazados = [];
 let admitidos = [];
 for (let i = 0; i < personas.length; i++) { 
     if (i === "Sofia" || i === "Jose"){
-       rechazados += personas[i] + " ,"; 
+       rechazados += personas[i] + " ,";
 
     }
     else {
         admitidos += personas[i] + " ,";
     }
-    console.log(admitidos)
+    console.log(personas[i])
 }
 
 
