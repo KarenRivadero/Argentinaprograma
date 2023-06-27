@@ -2,9 +2,12 @@ let personas = ["Jose", "Maria", "Juan", "Andres", "Lionel", "Sofia", "Leandro",
 let rechazados = [];
 let admitidos = [];
 for (let i = 0; i < personas.length; i++) { 
-    if (i !== "Sofia" && i !== "Jose"){
-       admitidos += personas[i] + " ,"; 
+    if (i === "Sofia" || i === "Jose"){
+       rechazados += personas[i] + " ,"; 
 
+    }
+    else {
+        admitidos += personas[i] + " ,";
     }
     console.log(admitidos)
 }
