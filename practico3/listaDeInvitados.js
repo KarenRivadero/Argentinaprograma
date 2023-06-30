@@ -9,11 +9,12 @@ for (let i = 0; i < personas.length; i++) {
     else {
         admitidos.push(personas[i]);
     }
-    console.log(rechazados);
-    console.log(admitidos);
 }
+console.log(rechazados);
+console.log(admitidos);
+
 for (let i = 0; i < admitidos.length ; i++) {
-    console.log("La lista de invitados admitidos es: " + admitidos[i]);
+    console.log("La lista de invitados admitidos es: " + admitidos[i] );
 }
 
 for (let i = 0; i < rechazados.length ; i++) {
